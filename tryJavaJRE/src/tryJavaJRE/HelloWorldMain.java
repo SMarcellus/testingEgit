@@ -1,5 +1,6 @@
 package tryJavaJRE;
 
+
 public class HelloWorldMain {
 	
 	public static int trySomeMath(int arg)
@@ -13,7 +14,8 @@ public class HelloWorldMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		trySomeMath(6); 
-		String myline = "hello Sue";
+		new SecondHellowClass().printAnotherHello();
+		String myline = "hello Sue \n";
 		System.out.println(myline);
 
 	}
