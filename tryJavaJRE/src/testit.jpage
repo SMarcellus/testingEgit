@@ -1,0 +1,4 @@
+int 2myScore = 2*2;
+		myScore = myScore/3;
+		System.out.print(myScore);
+		
