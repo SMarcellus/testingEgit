@@ -18,6 +18,7 @@ public class HelloWorldMain {
 		String myline = "hello Sue \n";
 		System.out.println(myline);
 		*/
+		
 		long time1 = 1000;
 		new MainThread(Thread.MIN_PRIORITY,  100, "first").start();
 		new MainThread(Thread.NORM_PRIORITY,  50, "second").start();
